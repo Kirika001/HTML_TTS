@@ -1,0 +1,146 @@
+
+    body, h1, h2, h3, h4, h5, h6
+    {
+        font-family: "Segoe UI", "Franklin Gothic Medium", "Arial", sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6
+    {
+        color: #5d6a86;
+    }
+
+    body
+    {
+        cursor: default;
+        font-size: small;
+    }
+
+    .answerbox
+    {
+        color: black;
+        background-color: #FFFAF0;
+        border-color: #808080;
+        border-style: solid;
+        border-width: 1px;
+        display: block;
+        padding: .75em;
+        width: 240pt;
+    }
+
+    .box
+    {
+        border-style: solid;
+        border-width: 1pt;
+        cursor: pointer;
+        font-size: .12in;
+        font-weight: bold;
+        height: .18in;
+        overflow: hidden;
+        text-align: center;
+        width: .18in;
+    }
+
+    .boxcheated_sel
+    {
+        background-color: #FFF1D7;
+        border-color: #C00000;
+        color: #2080D0;
+    }
+
+    .boxcheated_unsel
+    {
+        background-color: #ffffff;
+        border-color: #606060;
+        color: #2080D0;
+    }
+
+    .boxerror_sel
+    {
+        background-color: #FFF1D7;
+        border-color: #C00000;
+        color: #BF0000;
+    }
+
+    .boxerror_unsel
+    {
+        background-color: #FFF0F0;
+        border-color: #606060;
+        color: #BF0000;
+    }
+
+    .boxnormal_sel
+    {
+        background-color: #FFF1D7;
+        border-color: #C00000;
+        color: #000000;
+    }
+
+    .boxnormal_unsel
+    {
+        background-color: #ffffff;
+        border-color: #606060;
+        color: #000000;
+    }
+
+    .button
+    {
+        width: 64pt;
+    }
+
+    .cluebox
+    {
+        border-bottom-width: 1px;
+        border-color: #c0c0c0;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-style: solid;
+        border-top-width: 1px;
+        margin-top: 1em;
+        padding-bottom: .5em;
+        padding-left: 0pt;
+        padding-right: 0pt;
+        padding-top: .5em;
+    }
+
+    .crosswordarea
+    {
+        background-color: #D0D8E0;
+        border-color: #808080;
+        border-style: solid;
+        border-width: 2px;
+        padding: .5em;
+        font-family: "Segoe UI", "Verdana", "Arial", sans-serif;
+        font-size: small;
+    }
+
+    .copyright
+    {
+        margin-bottom: 1em;
+        font-size: x-small;
+        font-family: "Segoe UI", "Franklin Gothic Medium", "Arial", sans-serif;
+    }
+
+    .input
+    {
+        font-family: "Segoe UI", "Verdana", "Arial", sans-serif;
+    }
+
+    .wordlabel
+    {
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    .wordinfo
+    {
+        font-size: 8pt;
+        color: #808080;
+    }
+
+    .worderror
+    {
+        color: #c00000;
+        font-weight: bold;
+        display: none;
+        margin-top: 1em;
+    }
